@@ -27,3 +27,11 @@
 1. Clone repo
 2. Configure DB in application.properties
 3. Run Spring Boot app
+
+##  Sample Requests
+
+### Rent Bike
+POST /rent?userId=1&bikeId=3
+
+### Return Bike
+POST /return?rentalId=1
